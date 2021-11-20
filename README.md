@@ -2,4 +2,4 @@
 
 - Hostname
 - Netplan
-- Timezon
+- Timezone
