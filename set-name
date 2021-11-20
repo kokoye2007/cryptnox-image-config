@@ -6,7 +6,7 @@ if [ -e "$SNAP_DATA/name-set" ]; then
 	exit 0
 fi
 
-NAME="dashkiosk"
+NAME="cryptnox"
 
 while ! avahi-set-host-name $NAME 2>/dev/null; do
 	echo "setup: avahi-control interface not connected, sleeping 30 for sec"
