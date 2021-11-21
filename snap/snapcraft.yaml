@@ -11,6 +11,7 @@ description: |
 base: core20
 grade: stable
 confinement: strict
+architectures: [amd64, amr64, armhf]
 
 apps:
   set-name:
