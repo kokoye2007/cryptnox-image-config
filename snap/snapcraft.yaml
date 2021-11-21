@@ -1,6 +1,6 @@
-name: dashkiosk-image-config
+name: cryptnox-image-config
 version: '0.1'
-summary: Basic configuration for a dashkiosk appliance server
+summary: Basic configuration for a cryptnox 
 description: |
   This snap carries out basic configuration for an UbuntuCore appliance
   image. It sets the default hostname and avahi name, looks up the
@@ -8,7 +8,7 @@ description: |
   a netplan.yaml file from USB key to set up a WLAN connetion
   if desired.
 
-
+base: core20
 grade: stable
 confinement: strict
 
